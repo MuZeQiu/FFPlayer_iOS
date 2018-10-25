@@ -5,7 +5,7 @@
 ![](https://github.com/MuZeQiu/FFPlayer_iOS/blob/master/IMG_0721.PNG)
 ![]()
 
-FFPlayer是一个为iOS平台打造的MP3、MP4播放器，具有如下优点：
+#### FFPlayer是一个为iOS平台打造的MP3、MP4播放器，具有如下优点：
 * 截图
 * 静音播放
 * 横竖屏
@@ -14,7 +14,7 @@ FFPlayer是一个为iOS平台打造的MP3、MP4播放器，具有如下优点：
 * 音频可视化
 * UI低耦合
 
-使用时需要添加下列依赖：
+#### 使用时需要添加下列依赖：
 * FFMpeg
 * MobileCoreServices.framework
 * Accelerate.framework
