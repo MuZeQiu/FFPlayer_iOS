@@ -1,0 +1,80 @@
+//
+//  MP4_Pro_Def.h
+//
+//  Copyright © 2018年 邱沐泽. All rights reserved.
+//
+
+#ifndef MP4_Pro_Def_h
+#define MP4_Pro_Def_h
+
+#define KIsiPhoneX ([UIScreen instancesRespondToSelector:@selector(currentMode)] ? CGSizeEqualToSize(CGSizeMake(1125, 2436), [[UIScreen mainScreen] currentMode].size) : NO)
+
+#define KAudio_Decoder_Frame_Data @"KMP4_Audio_Decoder_Frame_Data"
+#define KAudio_Decoder_Frame_Time @"KMP4_Audio_Decoder_Frame_Time"
+#define KAudio_Decoder_Frame_Duration @"KAudio_Decoder_Frame_Duration"
+#define KAudio_Decoder_Is_Final_Frame @"KAudio_Decoder_Is_Final_Frame"
+
+#define KVideo_Decoder_Frame_Data @"KMP4_Video_Decoder_Frame_Data"
+#define KVideo_Decoder_Frame_Width @"KMP4_Video_Decoder_Frame_Width"
+#define KVideo_Decoder_Frame_Height @"KMP4_Video_Decoder_Frame_Height"
+#define KVideo_Decoder_Frame_Length @"KMP4_Video_Decoder_Frame_Length"
+#define KVideo_Decoder_Frame_Time @"KMP4_Video_Decoder_Frame_Time"
+#define KVideo_Decoder_Frame_Duration @"KVideo_Decoder_Frame_Duration"
+#define KVideo_Decoder_Is_Final_Frame @"KVideo_Decoder_Is_Final_Frame"
+
+#define KMP4_Subtitle_Decoder_Frame_Text @"KMP4_Subtitle_Decoder_Frame_Text"
+#define KMP4_Subtitle_Decoder_Frame_Position @"KMP4_Subtitle_Decoder_Frame_Position"
+#define KMP4_Subtitle_Decoder_Frame_Duration @"KMP4_Subtitle_Decoder_Frame_Duration"
+
+#pragma mark - KMP4_Player_View_Controller
+
+#define KMP4_Player_View_Controller_Pause_Notice @"KMP4_Player_View_Controller_Pause_Notice"
+#define KMP4_Player_View_Controller_Last_Notice @"KMP4_Player_View_Controller_Last_Notice"
+#define KMP4_Player_View_Controller_Next_Notice @"KMP4_Player_View_Controller_Next_Notice"
+
+#define KMP4_Player_View_Controller_Exit_Notice @"KMP4_Player_View_Controller_Exit_Notice"
+
+#define KMP4_Player_View_Controller_Progress_Notice @"KMP4_Player_View_Controller_Progress_Notice"
+
+#define KMP4_Player_View_Controller_Screen_Shot_Notice @"KMP4_Player_View_Controller_Screen_Shot_Notice"
+#define KMP4_Player_View_Controller_Sound_Notice @"KMP4_Player_View_Controller_Sound_Notice"
+#define KMP4_Player_View_Controller_Full_Screen_Notice @"KMP4_Player_View_Controller_Full_Screen_Notice"
+#define KMP4_Player_View_Controller_Nomal_Screen_Notice @"KMP4_Player_View_Controller_Nomal_Screen_Notice"
+
+#define KMP4_Player_View_Controller_Nomal_Display_Notice @"KMP4_Player_View_Controller_Nomal_Display_Notice"
+#define KMP4_Player_View_Controller_Display_Audio_Notice @"KMP4_Player_View_Controller_Display_Audio_Notice"
+#define KMP4_Player_View_Controller_Slider_Refresh_Notice @"KMP4_Player_View_Controller_Slider_Refresh_Notice"
+#define KMP4_Player_View_Controller_Progress_Refresh_Notice @"KMP4_Player_View_Controller_Progress_Refresh_Notice"
+#define KMP4_Player_View_Controller_Display_End_Notice @"KMP4_Player_View_Controller_Display_End_Notice"
+
+#define KMP4_Player_View_Controller_Tip_Notice @"KMP4_Player_View_Controller_Tip_Notice"
+
+#define KMP4_Player_View_Controller_Decode_End_Notice @"KMP4_Player_View_Controller_Decode_End_Notice"
+
+#define KMP4_Player_View_Controller_Play_End_Notice @"KMP4_Player_View_Controller_Play_End_Notice"
+
+#define KMP4_Player_View_Controller_First_Decode_Video_Notice @"KMP4_Player_View_Controller_First_Decode_Video_Notice"
+#define KMP4_Player_View_Controller_First_Decode_Audio_Notice @"KMP4_Player_View_Controller_First_Decode_Audio_Notice"
+
+#define KMP4_Player_View_Controller_Cover_Updata_Notice @"KMP4_Player_View_Controller_Cover_Updata_Notice"
+
+#define KMP4_Player_View_Controller_Decode_Error_Notice @"KMP4_Player_View_Controller_Decode_Error_Notice"
+
+#define KMP4_Player_View_Controller_Clear_Audio_Video_Queue_Notice @"KMP4_Player_View_Controller_Clear_Audio_Video_Queue_Notice"
+
+#define KMP4_Player_View_Controller_Video_Frame_For_Queue_Notice @"KMP4_Player_View_Controller_Video_Frame_For_Queue_Notice"
+
+#define KMP4_Player_View_Controller_Audio_Frame_For_Queue_Notice @"KMP4_Player_View_Controller_Audio_Frame_For_Queue_Notice"
+
+#define KMP4_Player_View_Controller_Video_Decode_Pause_Notice @"KMP4_Player_View_Controller_Decode_Pause_Notice"
+
+#define KMP4_Player_View_Controller_Decode_Resum_Notice @"KMP4_Player_View_Controller_Decode_Resum_Notice"
+
+#define KMP4_Player_View_Controller_Video_Queue_Count_Notice @"KMP4_Player_View_Controller_Video_Queue_Count_Notice"
+
+#define KMP4_Player_View_Controller_Audio_Queue_Count_Notice @"KMP4_Player_View_Controller_Audio_Queue_Count_Notice"
+
+
+typedef void(^Ctl_Block)(id);
+
+#endif /* MP4_Pro_Def_h */
