@@ -5,8 +5,8 @@
 ![](https://github.com/MuZeQiu/FFPlayer_iOS/blob/master/IMG_0721.PNG)
 ![]()
 
-* FFPlayer是一个为iOS平台打造的MP3、MP4播放器
-<br>✔️ 截图
+FFPlayer是一个为iOS平台打造的MP3、MP4播放器
+<br>* 截图
 <br>✔️ 静音播放
 <br>✔️ 横竖屏
 <br>✔️ 播放进度控制
