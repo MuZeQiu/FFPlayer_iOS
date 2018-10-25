@@ -6,7 +6,7 @@
 ![]()
 
 
-##### FFPlayer是一个为iOS平台打造的MP3、MP4播放器
+<br> * FFPlayer是一个为iOS平台打造的MP3、MP4播放器
 <br>✔️ 截图
 <br>✔️ 静音播放
 <br>✔️ 横竖屏
