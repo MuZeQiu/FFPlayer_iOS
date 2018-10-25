@@ -14,3 +14,19 @@ FFPlayer是一个为iOS平台打造的MP3、MP4播放器，具有如下优点：
 * 音频可视化
 * UI低耦合
 
+<br>使用时需要添加下列依赖：
+* FFMpeg
+* MobileCoreServices.framework
+* Accelerate.framework
+* AudioToolbox.framework
+* CoreAudio.framework
+* CoreVideo.framework
+* AVFoundation.framework
+* QuartzCore.framework
+* OpenGLES.framework
+* libc++.tbd
+* VideoToolbox.framework
+* CoreMedia.framework
+* libz.tbd
+* libbz2.tbd
+* libiconv.tbd
