@@ -15,7 +15,7 @@
 * UI低耦合
 
 #### 使用时需要添加下列依赖：
-* FFMpeg
+* FFMpeg(https://www.ffmpeg.org/)
 * MobileCoreServices.framework
 * Accelerate.framework
 * AudioToolbox.framework
